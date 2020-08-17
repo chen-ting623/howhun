@@ -2,21 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8"></meta>
-    <title>我的課表</title>
-    <style type="text/css">
-        body {
-          color: purple;
-          background-color: #dac23de5 }
+    <title>lab_05</title>
+    <style> /*CSS for 註解*/
+        table{
+            background-color: #849F90;height: 70px;
+        }
+        tr:nth-of-type(1){
+            background-color: #F9DC5C;
+        }
+        tr:nth-of-type(5){
+            background-color:#DEE38D;
+        }
+        tr:nth-of-type(even){
+            background-color:#A3C5A7;
+        }
+        tr:nth-of-type(9){
+            background-color:#DEE38D;
+        }
+        td:first-of-type{
+            background-color: #F9DC5C;
+        }
+        div{background-image: url('./food1.jpg');}
     </style>
 </head>
 <body>
     <caption>8月份課表</caption>
-    <hr/>
-    <cursor: ce;></cursor:>
-    <table border="1" width="1200px" height = "60px" cellpadding= "3" 
-            style="text-align: center;font-size : 20pt;font-family:Microsoft JhengHe;">
-        <div style="border:2px"></div>
-        <tr style="background-color: teal;font-style: oblique;font-size: 20;">
+    <table border="1" cellpadding= "3" style="text-align: center;width: 90%;">
+        <tr >
             <td></td>
             <td>星期一</td>
             <td>星期二</td>
@@ -25,7 +37,7 @@
             <td>星期五</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">09:10</td>
+            <td >09:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>軟體工程專題</td>
@@ -33,7 +45,7 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">10:10</td>
+            <td >10:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>軟體工程專題</td>
@@ -41,7 +53,7 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">11:10</td>
+            <td >11:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>軟體工程專題</td>
@@ -49,13 +61,15 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">12:10</td>
-            <td colspan="5"><b>
-                <p style="color: deeppink;text-decoration:underline;">午休時間</p>
-            </b></td>
+            <td >12:10</td>
+            <td colspan="5" 
+                style="color:#ED254E;font-weight:bold;text-align:center;
+                font-size: 60px;vertical-align: middle;">
+                <div style="width: 1200px;height: 80px;">午休時間</div>
+            </td>
         </tr>
         <tr>
-            <td style="background-color: teal;">13:10</td>
+            <td >13:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>資訊概論</td>
@@ -63,7 +77,7 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">14:10</td>
+            <td >14:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>資訊概論</td>
@@ -71,7 +85,7 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">15:10</td>
+            <td >15:10</td>
             <td>Python基礎程式設計</td>
             <td>Web基礎程式設計</td>
             <td>資訊概論</td>
@@ -79,12 +93,11 @@
             <td>Web基礎程式設計</td>
         </tr>
         <tr>
-            <td style="background-color: teal;">16:10</td>
-            <td colspan="5" style=" background-color: darkslategrey;"><i>
-                <p style="color: deeppink;text-decoration:underline;">回家囉</p>
+            <td >16:10</td>
+            <td colspan="5" ><i>
+                <p style="color:#ED254E;font-weight:bold;text-align: end;">回家囉 ~ ~ ~ ~ ~</p>
             </i></td>
         </tr>
     </table>
- 
 </body>
 </html>
